@@ -7,7 +7,6 @@
     "dev": "next dev -p 5174 --turbo",
     "start": "next start -p 5174",
     "build": "next build",
-    "vercel-build": "prisma generate && prisma migrate deploy && next build",
     "lint": "next lint"
   },
   "dependencies": {
